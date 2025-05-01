@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>QR Code Generator By Aayush</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="Qr">
+    <h3>Qr Code Generator Made by Aayush</h3>
+  </div>
+    <div class="wrapper">
+      <header>
+        <h1>QR Code Generator</h1>
+        <p>Paste a url or enter text to create QR code</p>
+      </header>
+      <div class="form">
+        <input type="text" spellcheck="false" placeholder="Enter text or url">
+        <button>Generate QR Code</button>
+      </div>
+      <div class="qr-code">
+        <img src="data:image/png;base64,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" alt="">
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
